@@ -1,0 +1,17 @@
+/* Make Personalise filter higher to fit more data */
+#pipelines #pipelines_selector_pipelines {
+  max-height:700px !important;
+  max-width: 260px !important;
+}
+#pipelines #pipelines_selector {
+  max-height:1100px !important;
+  max-width: 260px !important;
+  top: 45px !important;
+  right: 0px !important;
+}
+
+/* Hide pipelines from Personalise filter (shows only pipeline groups) */
+#pipelines .pipelines_selector .enhanced_dropdown .selector_pipeline {
+  display: none;
+}
+
