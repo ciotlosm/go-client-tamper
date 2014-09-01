@@ -2,12 +2,14 @@
 #pipelines #pipelines_selector_pipelines {
   max-height:700px !important;
   max-width: 260px !important;
+  -webkit-transform: translateZ(0);
 }
 #pipelines #pipelines_selector {
   max-height:1100px !important;
   max-width: 260px !important;
   top: 45px !important;
   right: 0px !important;
+  -webkit-transform: translateZ(0);
 }
 
 /* Hide pipelines from Personalise filter (shows only pipeline groups) */
